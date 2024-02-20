@@ -1,0 +1,57 @@
+table {
+    border: 1px solid black;
+}
+
+th, tr {
+    padding: 15px 67.5px 25px 67.5px;
+    text-align: center;
+}
+
+tr th:first-child {
+    background-color: palegreen;
+}
+
+tr th:nth-child(2) {
+    background-color: rgb(217, 59, 217);
+}
+
+tr th:nth-child(3) {
+    background-color: rgb(87, 203, 188);
+}
+
+tr th:nth-child(4) {
+    background-color: rgb(233, 109, 144);
+}
+
+tr th:nth-child(5) {
+    background-color: rgb(205, 223, 71);
+}
+
+input {
+    text-align: center;
+}
+
+.buttons {
+    width: 10%;
+    height: 100px;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(49, 194, 44);
+}
+
+.addButton {
+    border: none;
+    background-color: inherit;
+}
+
+.addButton:hover {
+    font-weight: bold;
+}
+
+p {
+    padding-top: 100px;
+    text-align: center;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Story Book</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/story.js" defer></script>
+</head>
+<body>
+    <h1>Welcome to my Make Your Own Story page!</h1>
+
+    <!-- Adding collumns to the table to indicate their value -->
+    <table>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <th>You <button class="addButton sect1" value="You" id="You">+</button></th>
+            <th>Ate with <button class="addButton sect2" value="ate with" id="Eat">+</button></th>
+            <th>A magical <button class="addButton sect3" value="a magical" id="Magical">+</button></th>
+            <th>Bean <button class="addButton sect4" value="bean" id="Bean">+</button></th>
+            <th>At the museum <button class="addButton sect5" value="at the museum" id="At">+</button></th>
+        </tr>
+        <tr>
+            <th>Dad <button class="addButton sect1" value="Dad" id="Dad">+</button></th>
+            <th>Swam with <button class="addButton sect2" value="swam with" id="Swam">+</button></th>
+            <th>A phenomenal <button class="addButton sect3" value="a phenomenal" id="Phenomenal">+</button></th>
+            <th>Giraffe <button class="addButton sect4" value="giraffe" id="Giraffe">+</button></th>
+            <th>At school <button class="addButton sect5" value="at school" id="School">+</button></th>
+        </tr>
+        <tr>
+            <th>Mom <button class="addButton sect1" value="Mom" id="Mom">+</button></th>
+            <th>Ran with <button class="addButton sect2" value="ran with" id="Ran">+</button></th>
+            <th>A cool <button class="addButton sect3" value="a cool" id="Cool">+</button></th>
+            <th>Otter <button class="addButton sect4" value="otter" id="Otter">+</button></th>
+            <th>On the sidewalk <button class="addButton sect5" value="on the sidewalk" id="Sidewalk">+</button></th>
+        </tr>
+        <tr>
+            <th>A dog <button class="addButton sect1" value="A dog" id="Dog">+</button></th>
+            <th>Had an appointment with <button class="addButton sect2" value="had an appointment with" id="Appointment">+</button></th>
+            <th>A funny <button class="addButton sect3" value="a funny" id="Funny">+</button></th>
+            <th>Celebrity <button class="addButton sect4" value="celebrity" id="Celebrity">+</button></th>
+            <th>At the airport <button class="addButton sect5" value="at the airport" id="Airport">+</button></th>
+        </tr>
+        <tr>
+            <th>A cat <button class="addButton sect1" value="A cat" id="Cat">+</button></th>
+            <th>Saw <button class="addButton sect2" value="saw" id="Saw">+</button></th>
+            <th>A weird looking <button class="addButton sect3" value="a weird looking" id="Weird">+</button></th>
+            <th>Police officer <button class="addButton sect4" value="police officer" id="Police">+</button></th>
+            <th>Pumping gas <button class="addButton sect5" value="pumping gas" id="Gas">+</button></th>
+        </tr>
+        <!-- Adding a final column to the table for the user to add their own values -->
+        <tr>
+            <th><input type="text" placeholder="Person" id="personInput"></th>
+            <th><input type="text" placeholder="Verb" id="verbInput"></th>
+            <th><input type="text" placeholder="Adjective" id="adjectiveInput"></th>
+            <th><input type="text" placeholder="What they see" id="whatInput"></th>
+            <th><input type="text" placeholder="Where they see it" id="whereInput"></th>
+        </tr>
+    </table>
+
+    <button class="buttons" id="clear">Reset</button>
+    <button class="buttons" type="submit" id="seeStory">See your story</button>
+    <button class="buttons" type="submit" id="randomStory">Randomize</button>
+
+    <p id="story"></p>
+</body>
+</html>
